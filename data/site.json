@@ -1,0 +1,380 @@
+{
+  "_help": "همه‌ی محتوای سایت اینجاست. هر فیلدی که {en, fa} داره دو زبانه‌ست. عکس‌ها رو داخل images/projects بذار و مسیرشون رو در آرایه‌ی images هر پروژه بنویس (اولین عکس، کاور کارت می‌شه). level: solid | working | basic  —  usage: 1 (پروژه‌ی جدی زدم) | 2 (کار ساده/آزمایشی) | 3 (هنوز پروژه‌ای نزدم)",
+
+  "profile": {
+    "initials": "AT.",
+    "name": { "en": "Arshia Taghipour", "fa": "عرشیا تقی‌پور" },
+    "hello": { "en": "// hello, i'm", "fa": "// سلام، من" },
+    "role": { "en": "Electronics · IoT · Maker", "fa": "الکترونیک · اینترنت اشیا · ساخت و ساز" },
+    "tagline": {
+      "en": "I build things that actually work — from a bare microcontroller to the web panel that controls it.",
+      "fa": "چیزهایی می‌سازم که واقعاً کار می‌کنن؛ از یک میکروکنترلر خالی تا پنل وبی که از راه دور کنترلش می‌کنه."
+    },
+    "note": { "en": "Turning ideas into working things.", "fa": "ایده رو تبدیل می‌کنم به یه چیزِ کارکننده." },
+    "stamp": ["MAKER", "ENGINEER", "LEARNER"],
+    "status": { "en": "Open to internship & junior roles", "fa": "آماده‌ی کارآموزی و همکاری" }
+  },
+
+  "hero": {
+    "steps": [
+      { "en": "Idea", "fa": "ایده" },
+      { "en": "Circuit", "fa": "مدار" },
+      { "en": "Firmware", "fa": "فرم‌ویر" },
+      { "en": "Web panel", "fa": "پنل وب" }
+    ],
+    "panelTitle": { "en": "device-01 · online", "fa": "دستگاه ۰۱ · آنلاین" },
+    "panelToggle": { "en": "Relay", "fa": "رله" },
+    "panelChart": { "en": "soil moisture", "fa": "رطوبت خاک" },
+    "scroll": { "en": "scroll", "fa": "اسکرول کن" }
+  },
+
+  "nav": {
+    "projects": { "en": "Projects", "fa": "پروژه‌ها" },
+    "skills": { "en": "Skills", "fa": "مهارت‌ها" },
+    "story": { "en": "Story", "fa": "داستان" },
+    "contact": { "en": "Contact", "fa": "تماس" }
+  },
+
+  "ui": {
+    "projectsTitle": { "en": "Selected projects", "fa": "پروژه‌های منتخب" },
+    "projectsSub": {
+      "en": "Each one started as a real problem. Tap a card to see the details, the photos and what was hard about it.",
+      "fa": "هر کدوم از یه نیاز واقعی شروع شد. روی هر کارت بزن تا جزئیات، عکس‌ها و چالش‌هاش رو ببینی."
+    },
+    "featured": { "en": "Featured project", "fa": "پروژه‌ی شاخص" },
+    "viewProject": { "en": "View project", "fa": "دیدن پروژه" },
+    "overview": { "en": "Overview", "fa": "معرفی" },
+    "highlights": { "en": "Technical notes", "fa": "نکات فنی" },
+    "stack": { "en": "Tech stack", "fa": "ابزارها" },
+    "gallery": { "en": "Gallery", "fa": "گالری" },
+    "close": { "en": "Close", "fa": "بستن" },
+    "prev": { "en": "Previous", "fa": "قبلی" },
+    "next": { "en": "Next", "fa": "بعدی" },
+    "year": { "en": "Year", "fa": "سال" },
+    "type": { "en": "Type", "fa": "نوع" },
+    "personal": { "en": "Personal project", "fa": "پروژه‌ی شخصی" },
+    "skillsTitle": { "en": "Skills, honestly", "fa": "مهارت‌ها، بدون اغراق" },
+    "skillsSub": {
+      "en": "Not everything here is at the same level, and I'd rather be clear about it. The bar shows how comfortable I am; the tag shows how far I've taken it in real projects.",
+      "fa": "همه‌ی این‌ها یک سطح نیستن و ترجیح می‌دم روراست باشم. نوار نشون می‌ده چقدر باهاش راحتم؛ برچسب کنارش می‌گه توی پروژه‌ی واقعی چقدر ازش استفاده کردم."
+    },
+    "levelLabel": { "en": "Comfort", "fa": "تسلط" },
+    "levels": {
+      "solid": { "en": "Comfortable", "fa": "راحتم" },
+      "working": { "en": "Can get it done", "fa": "با سرچ راه می‌ندازم" },
+      "basic": { "en": "Basics", "fa": "در حد آشنایی" }
+    },
+    "usage": {
+      "1": { "en": "Used in real projects", "fa": "توی پروژه‌ی جدی استفاده کردم" },
+      "2": { "en": "Small experiments", "fa": "کارهای ساده و آزمایشی" },
+      "3": { "en": "No project yet", "fa": "هنوز پروژه‌ای نزدم" }
+    },
+    "storyTitle": { "en": "How I got here", "fa": "از کجا شروع شد" },
+    "storySub": {
+      "en": "Short version. No drama, just the steps.",
+      "fa": "نسخه‌ی کوتاهش. بدون شاخ‌وبرگ، فقط مراحلش."
+    },
+    "contactTitle": { "en": "Let's build something together.", "fa": "بیاید یه چیزی با هم بسازیم." },
+    "contactSub": {
+      "en": "If you have a project, an internship spot, or just want to talk hardware — my inbox is open.",
+      "fa": "اگه پروژه‌ای دارید، جای کارآموزی خالیه، یا فقط می‌خواید درباره‌ی سخت‌افزار حرف بزنیم، خوشحال می‌شم پیام بدید."
+    },
+    "sendEmail": { "en": "Send an email", "fa": "ایمیل بزن" },
+    "footer": { "en": "Designed & built by me. Content lives in one JSON file.", "fa": "طراحی و ساخت خودم. محتوای سایت داخل یک فایل JSON ساده‌ست." },
+    "langSwitch": { "en": "فارسی", "fa": "EN" }
+  },
+
+  "projects": [
+    {
+      "id": "mqtt-http-relay",
+      "featured": true,
+      "year": "2025",
+      "title": { "en": "Smart Relay with MQTT & HTTP Failover", "fa": "رله هوشمند با MQTT و پشتیبان HTTP" },
+      "tags": ["ESP8266", "MQTT", "REST API", "OTA"],
+      "shortDesc": {
+        "en": "Smart relay with MQTT + HTTP failover, OTA updates, and a custom web panel.",
+        "fa": "رله هوشمند با MQTT و سیستم پشتیبان HTTP، همراه با آپدیت OTA و پنل اختصاصی."
+      },
+      "longDesc": {
+        "en": "A smart relay initially built with MQTT on free brokers, later upgraded with an HTTP (REST API) failover system due to instability and filtering issues. The device seamlessly switches between MQTT and HTTP while keeping real-time responses on the web panel. Features include OTA updates, EEPROM Wi-Fi configuration, local manual control via interrupts, and advanced scheduling without daily limits. The UI/UX of the control site was fully custom-built.",
+        "fa": "این رله اول با MQTT روی بروکرهای رایگان راه افتاد، اما چون بروکرها ناپایدار بودن و گاهی فیلتر می‌شدن، یک مسیر پشتیبان HTTP (REST API) هم براش طراحی کردم. دستگاه خودش بین MQTT و HTTP جابه‌جا می‌شه و پاسخ لحظه‌ای روی سایت حفظ می‌شه. آپدیت OTA، ذخیره‌ی تنظیمات وای‌فای در EEPROM، کلید دستی با اینتراپت و زمان‌بندی پیشرفته بدون محدودیت روزانه هم داره. UI/UX سایت کنترل رو کامل خودم طراحی کردم."
+      },
+      "highlights": {
+        "en": [
+          "Automatic failover between MQTT and a REST API when the broker drops or gets filtered",
+          "OTA firmware updates so the device never needs to be opened again",
+          "Wi-Fi credentials stored in EEPROM with a setup mode",
+          "Physical button handled with a hardware interrupt — works even with no internet",
+          "Scheduler with unlimited daily time slots, synced from the panel"
+        ],
+        "fa": [
+          "جابه‌جایی خودکار بین MQTT و REST API وقتی بروکر قطع یا فیلتر می‌شه",
+          "آپدیت فرم‌ویر از راه دور (OTA) بدون باز کردن دستگاه",
+          "ذخیره‌ی مشخصات وای‌فای در EEPROM با حالت راه‌اندازی اولیه",
+          "کلید فیزیکی روی اینتراپت سخت‌افزاری؛ حتی بدون اینترنت کار می‌کنه",
+          "زمان‌بندی با تعداد نامحدود بازه در روز، همگام با پنل"
+        ]
+      },
+      "stack": ["ESP8266", "Arduino IDE", "MQTT", "PHP REST API", "MySQL", "HTML / CSS / JS"],
+      "images": ["images/projects/mqtt-http-relay-1.jpg"]
+    },
+    {
+      "id": "smart-home",
+      "year": "2023",
+      "title": { "en": "Smart Home System", "fa": "سیستم خانه هوشمند" },
+      "tags": ["ESP32", "Sensors", "Dashboard"],
+      "shortDesc": {
+        "en": "Multi-device smart home with sensors, irrigation, and centralized control.",
+        "fa": "خانه هوشمند چنددستگاهی با سنسورها، آبیاری و کنترل متمرکز."
+      },
+      "longDesc": {
+        "en": "A smart home solution with multiple ESP-based devices, including a humidity sensor, door open/close monitor, relay control, and smart irrigation. Data such as soil moisture levels were displayed in real-time graphs, and door status changes were logged in a table. All devices were connected to one central control panel for easy management.",
+        "fa": "یک مجموعه‌ی خانه هوشمند با چند دستگاه مبتنی بر ESP: سنسور رطوبت، سنسور باز و بسته شدن در، کنترل رله و آبیاری هوشمند. داده‌هایی مثل رطوبت خاک به‌صورت نمودار لحظه‌ای نمایش داده می‌شد و هر بار باز و بسته شدن در، توی یک جدول ثبت می‌شد. همه‌ی دستگاه‌ها از یک پنل مرکزی مدیریت می‌شدن."
+      },
+      "highlights": {
+        "en": [
+          "Several independent ESP nodes talking to one central panel",
+          "Live soil-moisture chart and automatic irrigation trigger",
+          "Door events logged with timestamps in a table",
+          "One dashboard for every device, no separate apps"
+        ],
+        "fa": [
+          "چند نود مستقل ESP که همه به یک پنل مرکزی وصل می‌شن",
+          "نمودار زنده‌ی رطوبت خاک و روشن شدن خودکار آبیاری",
+          "ثبت رویدادهای در با زمان دقیق در جدول",
+          "یک داشبورد برای همه‌ی دستگاه‌ها، بدون اپ جداگانه"
+        ]
+      },
+      "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS"],
+      "images": ["images/projects/smart-home-1.jpg", "images/projects/smart-home-2.jpg"]
+    },
+    {
+      "id": "ecg",
+      "year": "2023",
+      "title": { "en": "Online ECG Monitoring", "fa": "پایش آنلاین نوار قلب (ECG)" },
+      "tags": ["ESP32", "Firebase", "Live chart"],
+      "shortDesc": {
+        "en": "Live-stream ECG signals to a website with Firebase integration.",
+        "fa": "نمایش زنده‌ی نوار قلب روی وب با Firebase."
+      },
+      "longDesc": {
+        "en": "An ECG monitoring system streaming live heart signals directly to a website. The initial prototype worked via a local web server, later upgraded with Firebase for global real-time access. I designed a custom live-updating chart to visualize ECG data. This allows doctors to remotely monitor patients in real time and provide guidance even before arriving at a hospital.",
+        "fa": "سیستمی که سیگنال قلب رو زنده روی یک صفحه‌ی وب نمایش می‌ده. نمونه‌ی اول روی وب‌سرور محلی کار می‌کرد و بعد با Firebase ارتقا پیدا کرد تا از هر جای دنیا قابل دیدن باشه. برای نمایش نوار قلب یک نمودار اختصاصی نوشتم که لحظه‌ای به‌روز می‌شه. ایده این بود که پزشک بتونه قبل از رسیدن بیمار به بیمارستان وضعیتش رو ببینه و راهنمایی کنه."
+      },
+      "highlights": {
+        "en": [
+          "Analog ECG front-end sampled by an ESP32 and pushed in real time",
+          "v1: local web server on the device · v2: Firebase Realtime Database",
+          "Hand-written rolling chart tuned for smooth high-rate updates",
+          "Designed around a real use-case: remote triage before hospital arrival"
+        ],
+        "fa": [
+          "نمونه‌برداری از ماژول ECG با ESP32 و ارسال لحظه‌ای",
+          "نسخه‌ی ۱: وب‌سرور محلی روی خود دستگاه · نسخه‌ی ۲: Firebase Realtime Database",
+          "نمودار متحرک دست‌نویس برای نرخ به‌روزرسانی بالا",
+          "طراحی حول یک نیاز واقعی: بررسی از راه دور قبل از رسیدن به بیمارستان"
+        ]
+      },
+      "stack": ["ESP32", "AD8232", "Firebase", "HTML / CSS / JS"],
+      "images": ["images/projects/ecg-1.jpg"]
+    },
+    {
+      "id": "printer",
+      "year": "2024",
+      "title": { "en": "Custom 3D Printer (Prusa Bear inspired)", "fa": "پرینتر سه‌بعدی سفارشی (الهام از Prusa Bear)" },
+      "tags": ["Mechanics", "Marlin", "Fabrication"],
+      "shortDesc": {
+        "en": "Custom 3D printer inspired by Prusa Bear, built from scratch.",
+        "fa": "پرینتر سه‌بعدی که از صفر و با الهام از Prusa Bear ساختم."
+      },
+      "longDesc": {
+        "en": "A custom-built 3D printer inspired by the Prusa Bear design. The project involved tackling mechanical, electronic, and firmware challenges to achieve precise and reliable printing. It was a demanding yet rewarding process, resulting in a fully functional printer tailored to my needs.",
+        "fa": "یک پرینتر سه‌بعدی که با الهام از طرح Prusa Bear ساختم. برای رسیدن به چاپ دقیق و پایدار باید هم‌زمان با مشکلات مکانیکی، الکترونیکی و فرم‌ویر سر و کله می‌زدم. سخت بود، ولی نتیجه‌ش پرینتریه که الان قطعات بقیه‌ی پروژه‌هام رو باهاش چاپ می‌کنم."
+      },
+      "highlights": {
+        "en": [
+          "Aluminium extrusion frame, belts and linear motion assembled and squared by hand",
+          "Wiring, stepper drivers and control board set up from scratch",
+          "Firmware configured and calibrated: steps/mm, PID, bed levelling",
+          "Now used to print enclosures for my other projects"
+        ],
+        "fa": [
+          "شاسی پروفیل آلومینیومی، تسمه‌ها و حرکت خطی، دستی مونتاژ و تراز شد",
+          "سیم‌کشی، درایور استپر و برد کنترل از صفر راه‌اندازی شد",
+          "پیکربندی و کالیبراسیون فرم‌ویر: steps/mm، PID، تراز بستر",
+          "الان بدنه‌ی بقیه‌ی پروژه‌هام رو با همین چاپ می‌کنم"
+        ]
+      },
+      "stack": ["Marlin", "Fusion 360", "Stepper drivers", "3D printing"],
+      "images": ["images/projects/printer-1.jpg", "images/projects/printer-2.jpg"]
+    },
+    {
+      "id": "mqtt-plug",
+      "year": "2024",
+      "title": { "en": "Smart Plug with MQTT", "fa": "پریز هوشمند با MQTT" },
+      "tags": ["ESP8266", "MQTT", "Laser cut"],
+      "shortDesc": {
+        "en": "Smart plug with MQTT and custom real-time web control.",
+        "fa": "پریز هوشمند MQTT با کنترل لحظه‌ای تحت وب."
+      },
+      "longDesc": {
+        "en": "A smart plug controlled via MQTT with a custom-built web panel. The main challenge was integrating live MQTT communication with a website for minimal latency. To overcome broker limitations, I implemented a custom response system with dual topics. The plug enclosure was designed and built using laser-cut plexiglass, combining both aesthetics and function.",
+        "fa": "پریزی که با پروتکل MQTT کنترل می‌شه و پنل وب اختصاصی داره. چالش اصلی این بود که سایت مستقیم به بروکر وصل بشه و با کمترین تأخیر به‌روز بمونه. برای دور زدن محدودیت‌های بروکر، یک سیستم پاسخ‌دهی با دو Topic (فرمان و تأیید) طراحی کردم. بدنه‌ش رو هم با برش لیزری پلکسی ساختم که هم تمیز باشه هم کاربردی."
+      },
+      "highlights": {
+        "en": [
+          "Browser connects straight to the broker over MQTT-WebSocket",
+          "Command / acknowledge topic pair so the UI reflects the real state",
+          "Enclosure designed for laser-cut plexiglass, mains wiring kept isolated"
+        ],
+        "fa": [
+          "اتصال مستقیم مرورگر به بروکر از طریق MQTT روی WebSocket",
+          "جفت Topic فرمان/تأیید تا وضعیت واقعی دستگاه توی رابط دیده بشه",
+          "بدنه‌ی پلکسی برش لیزری با جداسازی بخش برق شهر"
+        ]
+      },
+      "stack": ["ESP8266", "MQTT (WebSocket)", "HTML / CSS / JS", "Laser cutting"],
+      "images": ["images/projects/mqtt-plug-1.jpg"]
+    },
+    {
+      "id": "firebase-relay",
+      "year": "2022",
+      "title": { "en": "Smart Relay with Firebase", "fa": "رله هوشمند با Firebase" },
+      "tags": ["ESP8266", "Firebase", "Web panel"],
+      "shortDesc": {
+        "en": "Smart relay controlled via Firebase with a custom web panel for remote switching.",
+        "fa": "رله هوشمند با کنترل تحت وب و Firebase برای مدیریت از راه دور."
+      },
+      "longDesc": {
+        "en": "This project was a smart relay controlled via a custom web interface, built with Firebase Realtime Database and Hosting. Users could remotely switch devices on and off from anywhere, while each user had access only to their own device. I also designed and developed the web platform myself, integrating both backend and frontend for seamless real-time interaction.",
+        "fa": "رله‌ای که از طریق یک سایت اختصاصی و با Firebase Realtime Database و Hosting کنترل می‌شد. کاربر می‌تونست از هر جایی دستگاهش رو خاموش و روشن کنه و هر کاربر فقط دستگاه خودش رو می‌دید. طراحی و پیاده‌سازی سایت، هم سمت داده و هم رابط کاربری، کار خودم بود."
+      },
+      "highlights": {
+        "en": [
+          "Realtime Database keeps device and panel state in sync within milliseconds",
+          "Per-user access: each account only sees its own devices",
+          "Hosted on Firebase Hosting, no server to maintain"
+        ],
+        "fa": [
+          "همگام‌سازی وضعیت دستگاه و پنل در حد میلی‌ثانیه با Realtime Database",
+          "دسترسی کاربر‌محور: هر حساب فقط دستگاه خودش رو می‌بینه",
+          "میزبانی روی Firebase Hosting، بدون سرور جداگانه"
+        ]
+      },
+      "stack": ["ESP8266", "Firebase RTDB", "Firebase Hosting", "HTML / CSS / JS"],
+      "images": ["images/projects/firebase-relay-1.jpg"]
+    },
+    {
+      "id": "avr",
+      "year": "2021",
+      "title": { "en": "AVR Microcontroller Projects", "fa": "پروژه‌های میکروکنترلر AVR" },
+      "tags": ["AVR", "CodeVision", "Proteus"],
+      "shortDesc": {
+        "en": "Various AVR-based projects including locks, thermostats, and displays.",
+        "fa": "چند پروژه با AVR: قفل رمزی، ترموستات، تابلو روان و بیشتر."
+      },
+      "longDesc": {
+        "en": "A collection of projects developed with AVR microcontrollers using CodeVision and simulated in Proteus. Projects included a digital password lock, adjustable thermostat, timer-based relay, dice generator, and LED matrix display with shift registers. These projects provided strong foundations in low-level programming and hardware integration.",
+        "fa": "مجموعه‌ای از پروژه‌ها با میکروکنترلر AVR که در CodeVision نوشته و در Proteus شبیه‌سازی شدن: قفل رمزی دیجیتال، ترموستات قابل‌تنظیم، رله‌ی تایمردار، تاس الکترونیکی و تابلو روان با شیفت‌رجیستر. همین‌ها بودن که پایه‌ی برنامه‌نویسی سطح پایین و کار مستقیم با سخت‌افزار رو برام ساختن."
+      },
+      "highlights": {
+        "en": [
+          "Direct register-level programming, no Arduino abstraction",
+          "Keypad + LCD password lock with EEPROM-stored code",
+          "LED matrix driven through 74HC595 shift registers",
+          "Everything simulated in Proteus before touching hardware"
+        ],
+        "fa": [
+          "برنامه‌نویسی مستقیم روی رجیسترها، بدون لایه‌ی آردوینو",
+          "قفل رمزی با کی‌پد و LCD و ذخیره‌ی رمز در EEPROM",
+          "تابلو روان با شیفت‌رجیستر 74HC595",
+          "شبیه‌سازی همه‌چیز در Proteus قبل از بستن مدار واقعی"
+        ]
+      },
+      "stack": ["ATmega", "CodeVision AVR", "Proteus"],
+      "images": ["images/projects/avr-1.jpg"]
+    }
+  ],
+
+  "skills": [
+    {
+      "group": { "en": "Embedded & IoT", "fa": "امبدد و اینترنت اشیا" },
+      "items": [
+        { "name": "Arduino", "level": "solid", "usage": 1 },
+        { "name": "ESP32 / ESP8266", "level": "solid", "usage": 1 },
+        { "name": "IoT (MQTT · HTTP · Firebase)", "level": "solid", "usage": 1 },
+        { "name": "AVR (CodeVision)", "level": "working", "usage": 1, "note": { "en": "a bit rusty — haven't touched it in a while", "fa": "یه مدت سراغش نرفتم، کمی از دستم در رفته" } }
+      ]
+    },
+    {
+      "group": { "en": "Web", "fa": "وب" },
+      "items": [
+        { "name": "HTML / CSS", "level": "solid", "usage": 1 },
+        { "name": "JavaScript", "level": "working", "usage": 2 },
+        { "name": "PHP", "level": "basic", "usage": 2 },
+        { "name": "MySQL · Firebase", "level": "basic", "usage": 1, "note": { "en": "used in projects, but only the parts I needed", "fa": "توی پروژه‌ها استفاده کردم، ولی فقط همون قدری که لازم بود" } }
+      ]
+    },
+    {
+      "group": { "en": "Design & Fabrication", "fa": "طراحی و ساخت" },
+      "items": [
+        { "name": "3D Printing", "level": "solid", "usage": 1 },
+        { "name": "Fusion 360", "level": "working", "usage": 2 },
+        { "name": "KiCad", "level": "basic", "usage": 2 },
+        { "name": "Electronics repair", "level": "working", "usage": 2 }
+      ]
+    }
+  ],
+
+  "story": [
+    {
+      "tag": "01",
+      "title": { "en": "The first LED", "fa": "اولین LED" },
+      "text": {
+        "en": "It started with an Arduino and a blinking LED. Nothing special, except that a few lines of code had just moved something in the real world. That was enough to keep going.",
+        "fa": "با یک آردوینو و یک LED چشمک‌زن شروع شد. چیز خاصی نبود، فقط چند خط کد یه چیزی رو توی دنیای واقعی تکون داده بود. همین کافی بود که ادامه بدم."
+      }
+    },
+    {
+      "tag": "02",
+      "title": { "en": "Going lower", "fa": "یک لایه پایین‌تر" },
+      "text": {
+        "en": "AVR, CodeVision and Proteus. Registers instead of libraries. A password lock, a thermostat, an LED matrix. Slower to build, but I finally understood what the Arduino libraries had been hiding.",
+        "fa": "AVR، CodeVision و Proteus. رجیستر به جای کتابخونه. قفل رمزی، ترموستات، تابلو روان. ساختنشون کندتر بود، ولی بالاخره فهمیدم کتابخونه‌های آردوینو چی رو ازم پنهان می‌کردن."
+      }
+    },
+    {
+      "tag": "03",
+      "title": { "en": "Putting it online", "fa": "وصل شدن به اینترنت" },
+      "text": {
+        "en": "The first ESP8266 changed everything: a relay I could switch from my phone. Then the device needed a panel, so I learned web. Then the panel needed to be fast, so I learned MQTT. Then the broker went down, so I built a fallback.",
+        "fa": "اولین ESP8266 همه‌چیز رو عوض کرد: رله‌ای که از گوشی خاموش و روشن می‌شد. بعد دستگاه به پنل نیاز داشت، پس وب یاد گرفتم. بعد پنل باید سریع می‌شد، پس MQTT یاد گرفتم. بعد بروکر قطع شد، پس یه مسیر پشتیبان ساختم."
+      }
+    },
+    {
+      "tag": "04",
+      "title": { "en": "Building my own tools", "fa": "ساختن ابزار خودم" },
+      "text": {
+        "en": "Buying a printer felt like skipping the interesting part, so I built one. Frame, wiring, firmware, a lot of failed prints. Now it prints the enclosures for everything else on this page.",
+        "fa": "خریدن پرینتر مثل رد کردن قسمت جذاب ماجرا بود، پس یکی ساختم. شاسی، سیم‌کشی، فرم‌ویر و کلی چاپ خراب. الان بدنه‌ی تقریباً همه‌ی چیزهای این صفحه رو همون چاپ می‌کنه."
+      }
+    },
+    {
+      "tag": "05",
+      "title": { "en": "Now", "fa": "الان" },
+      "text": {
+        "en": "I know what I'm good at and what I'm still learning. What I want next is to work next to people who've done this longer than me, on things that ship.",
+        "fa": "می‌دونم توی چی خوبم و چی رو هنوز دارم یاد می‌گیرم. چیزی که الان دنبالشم، کار کردن کنار آدم‌هاییه که این مسیر رو بیشتر از من رفتن، روی چیزهایی که واقعاً به دست آدم‌ها می‌رسه."
+      }
+    }
+  ],
+
+  "contact": {
+    "email": "hello@example.com",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/", "handle": "github.com/yourname" },
+      { "label": "Telegram", "url": "https://t.me/", "handle": "@yourname" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/", "handle": "in/yourname" }
+    ]
+  }
+}
