@@ -3,16 +3,25 @@
 
   "profile": {
     "initials": "AT.",
-    "name": { "en": "Arshia Taghipour", "fa": "عرشیا تقی‌پور" },
-    "hello": { "en": "// hello, i'm", "fa": "// سلام، من" },
-    "role": { "en": "Electronics · IoT · Maker", "fa": "الکترونیک · اینترنت اشیا · ساخت و ساز" },
+    "name": { "en": "Arshia Taghipour", "fa": "ارشیا تقی‌پور" },
+    "hello": { "en": " // hell, i'm", "fa": " // سلام من" },
+    "role": {
+      "en": "Electronics · Problem Solving · Building",
+      "fa": "الکترونیک · حل مسئله · ساختن"
+    },
     "tagline": {
       "en": "I build things that actually work — from a bare microcontroller to the web panel that controls it.",
       "fa": "چیزهایی می‌سازم که واقعاً کار می‌کنن؛ از یک میکروکنترلر خالی تا پنل وبی که از راه دور کنترلش می‌کنه."
     },
-    "note": { "en": "Turning ideas into working things.", "fa": "ایده رو تبدیل می‌کنم به یه چیزِ کارکننده." },
+    "note": {
+      "en": "Turning ideas into working things.",
+      "fa": "ایده رو تبدیل می‌کنم به یه چیزِ کارکننده."
+    },
     "stamp": ["MAKER", "ENGINEER", "LEARNER"],
-    "status": { "en": "Open to internship & junior roles", "fa": "آماده‌ی کارآموزی و همکاری" }
+    "status": {
+      "en": "Open to internship & junior roles",
+      "fa": "آماده‌ی کارآموزی و همکاری"
+    }
   },
 
   "hero": {
@@ -65,7 +74,10 @@
       "basic": { "en": "Basics", "fa": "در حد آشنایی" }
     },
     "usage": {
-      "1": { "en": "Used in real projects", "fa": "توی پروژه‌ی جدی استفاده کردم" },
+      "1": {
+        "en": "Used in real projects",
+        "fa": "توی پروژه‌ی جدی استفاده کردم"
+      },
       "2": { "en": "Small experiments", "fa": "کارهای ساده و آزمایشی" },
       "3": { "en": "No project yet", "fa": "هنوز پروژه‌ای نزدم" }
     },
@@ -74,13 +86,19 @@
       "en": "Short version. No drama, just the steps.",
       "fa": "نسخه‌ی کوتاهش. بدون شاخ‌وبرگ، فقط مراحلش."
     },
-    "contactTitle": { "en": "Let's build something together.", "fa": "بیاید یه چیزی با هم بسازیم." },
+    "contactTitle": {
+      "en": "Let's build something together.",
+      "fa": "بیاید یه چیزی با هم بسازیم."
+    },
     "contactSub": {
       "en": "If you have a project, an internship spot, or just want to talk hardware — my inbox is open.",
       "fa": "اگه پروژه‌ای دارید، جای کارآموزی خالیه، یا فقط می‌خواید درباره‌ی سخت‌افزار حرف بزنیم، خوشحال می‌شم پیام بدید."
     },
     "sendEmail": { "en": "Send an email", "fa": "ایمیل بزن" },
-    "footer": { "en": "Designed & built by me. Content lives in one JSON file.", "fa": "طراحی و ساخت خودم. محتوای سایت داخل یک فایل JSON ساده‌ست." },
+    "footer": {
+      "en": "Designed & built by me. Content lives in one JSON file.",
+      "fa": "طراحی و ساخت خودم. محتوای سایت داخل یک فایل JSON ساده‌ست."
+    },
     "langSwitch": { "en": "فارسی", "fa": "EN" }
   },
 
@@ -89,33 +107,45 @@
       "id": "mqtt-http-relay",
       "featured": true,
       "year": "2025",
-      "title": { "en": "Smart Relay with MQTT & HTTP Failover", "fa": "رله هوشمند با MQTT و پشتیبان HTTP" },
-      "tags": ["ESP8266", "MQTT", "REST API", "OTA"],
+      "title": {
+        "en": "Smart Relay with MQTT & HTTP Failover",
+        "fa": "رله هوشمند با Mqtt و HTTP Failover"
+      },
+      "tags": ["ESP8266", "MQTT", "REST API", "OTA", "ELECTRONIC"],
       "shortDesc": {
         "en": "Smart relay with MQTT + HTTP failover, OTA updates, and a custom web panel.",
         "fa": "رله هوشمند با MQTT و سیستم پشتیبان HTTP، همراه با آپدیت OTA و پنل اختصاصی."
       },
       "longDesc": {
-        "en": "A smart relay initially built with MQTT on free brokers, later upgraded with an HTTP (REST API) failover system due to instability and filtering issues. The device seamlessly switches between MQTT and HTTP while keeping real-time responses on the web panel. Features include OTA updates, EEPROM Wi-Fi configuration, local manual control via interrupts, and advanced scheduling without daily limits. The UI/UX of the control site was fully custom-built.",
-        "fa": "این رله اول با MQTT روی بروکرهای رایگان راه افتاد، اما چون بروکرها ناپایدار بودن و گاهی فیلتر می‌شدن، یک مسیر پشتیبان HTTP (REST API) هم براش طراحی کردم. دستگاه خودش بین MQTT و HTTP جابه‌جا می‌شه و پاسخ لحظه‌ای روی سایت حفظ می‌شه. آپدیت OTA، ذخیره‌ی تنظیمات وای‌فای در EEPROM، کلید دستی با اینتراپت و زمان‌بندی پیشرفته بدون محدودیت روزانه هم داره. UI/UX سایت کنترل رو کامل خودم طراحی کردم."
+        "en": "This relay was initially developed using MQTT with free public brokers. Due to internet instability and filtering restrictions in Iran, I also designed an HTTP (REST API) backup connection. The device automatically switches between MQTT and HTTP to keep the system active and responsive in real time.Features include OTA updates, Wi-Fi configuration storage in EEPROM, instant manual control using interrupts, and unlimited ON/OFF timers. I designed the entire UI/UX of the control website myself, allowing each user to add and control multiple devices through their own dashboard.",
+        "fa": "این رله اول با MQTT روی بروکرهای رایگان راه افتاد، به دلیل ناپایدار بودن اینترنت ایران و فیلترینگ ، یک مسیر پشتیبان HTTP (REST API) هم براش طراحی کردم. دستگاه خودش بین MQTT و HTTP جابه‌جا می‌شه و سیستم به صورت real time فعال میمونه . آپدیت OTA، ذخیره‌ی تنظیمات وای‌فای در EEPROM، کلید دستی در لحظه با استفاده از اینتراپت و تایمر خاوش روشن شدن بدون محدودیت . UI/UX سایت کنترل رو کامل خودم طراحی کردم هر یوزی میتواند دستکاه های مختلفی در پنل اضافه و کنترل کنه"
       },
       "highlights": {
         "en": [
-          "Automatic failover between MQTT and a REST API when the broker drops or gets filtered",
-          "OTA firmware updates so the device never needs to be opened again",
-          "Wi-Fi credentials stored in EEPROM with a setup mode",
-          "Physical button handled with a hardware interrupt — works even with no internet",
-          "Scheduler with unlimited daily time slots, synced from the panel"
+          "Automatic switching between MQTT and REST API when the broker is unavailable or blocked",
+          "Remote firmware updates (OTA) without physical access to the device, either individually or across all devices",
+          "Wi-Fi credentials stored in EEPROM with an initial setup mode",
+          "Physical button using a hardware interrupt; works even without an internet connection",
+          "Scheduling with an unlimited number of time ranges per day, synchronized with the control panel"
         ],
         "fa": [
-          "جابه‌جایی خودکار بین MQTT و REST API وقتی بروکر قطع یا فیلتر می‌شه",
-          "آپدیت فرم‌ویر از راه دور (OTA) بدون باز کردن دستگاه",
+          "جابه‌جایی خودکار بین MQTT و  REST API وقتی بروکر قطع یا فیلتر می‌شه",
+          "آپدیت فرم‌ویر از راه دور (OTA) بدون دسترسی به دستگاه به صورت انتخابی یا همگانی",
           "ذخیره‌ی مشخصات وای‌فای در EEPROM با حالت راه‌اندازی اولیه",
           "کلید فیزیکی روی اینتراپت سخت‌افزاری؛ حتی بدون اینترنت کار می‌کنه",
           "زمان‌بندی با تعداد نامحدود بازه در روز، همگام با پنل"
         ]
       },
-      "stack": ["ESP8266", "Arduino IDE", "MQTT", "PHP REST API", "MySQL", "HTML / CSS / JS"],
+      "stack": [
+        "ESP8266",
+        "Arduino IDE",
+        "MQTT",
+        "PHP",
+        "REST API",
+        "MySQL",
+        "HTML / CSS / JS",
+        "ELECRONIC"
+      ],
       "images": ["images/projects/mqtt-http-relay-1.jpg"]
     },
     {
@@ -128,8 +158,8 @@
         "fa": "خانه هوشمند چنددستگاهی با سنسورها، آبیاری و کنترل متمرکز."
       },
       "longDesc": {
-        "en": "A smart home solution with multiple ESP-based devices, including a humidity sensor, door open/close monitor, relay control, and smart irrigation. Data such as soil moisture levels were displayed in real-time graphs, and door status changes were logged in a table. All devices were connected to one central control panel for easy management.",
-        "fa": "یک مجموعه‌ی خانه هوشمند با چند دستگاه مبتنی بر ESP: سنسور رطوبت، سنسور باز و بسته شدن در، کنترل رله و آبیاری هوشمند. داده‌هایی مثل رطوبت خاک به‌صورت نمودار لحظه‌ای نمایش داده می‌شد و هر بار باز و بسته شدن در، توی یک جدول ثبت می‌شد. همه‌ی دستگاه‌ها از یک پنل مرکزی مدیریت می‌شدن."
+        "en": "A smart home system consisting of multiple devices based on ESP8266, ESP32, and ESP-01, including humidity sensors, door open/close sensors, relay controllers, and a smart irrigation system. Data such as soil moisture, air temperature, and humidity were displayed through real-time charts, while door open/close statuses were recorded in a table. All devices could be monitored and controlled through a central control panel. The system was built using HTTPS and REST APIs and deployed on cPanel hosting. The control panel was developed using PHP, HTML, CSS, and JavaScript.",
+        "fa": "یک سیستم خانه هوشمند که شامل چندین دستگاه مبتنی بر ESP8266 و ESP32 و همچنین ESP01 بود، از جمله سنسور رطوبت، سنسور باز و بسته شدن در، کنترل رله و سیستم آبیاری هوشمند. اطلاعات مانند رطوبت خاک دمای هوا و رطوبت به صورت نمودار لحظه‌ای نمایش داده می‌شد و وضعیت باز و بسته شدن درها در جدول ثبت می‌شد. تمامی دستگاه‌ها از طریق یک پنل مرکزی قابل کنترل بودند این سیستم بر پایه HTTPS و REST API روی هاست های CPANEL راه اندازی شد پنل با استفاده از PHP, HTML, CSS , JS راه اندازی شد "
       },
       "highlights": {
         "en": [
@@ -146,12 +176,18 @@
         ]
       },
       "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS"],
-      "images": ["images/projects/smart-home-1.jpg", "images/projects/smart-home-2.jpg"]
+      "images": [
+        "images/projects/smart-home-1.jpg",
+        "images/projects/smart-home-2.jpg"
+      ]
     },
     {
       "id": "ecg",
       "year": "2023",
-      "title": { "en": "Online ECG Monitoring", "fa": "پایش آنلاین نوار قلب (ECG)" },
+      "title": {
+        "en": "Online ECG Monitoring",
+        "fa": "پایش آنلاین نوار قلب (ECG)"
+      },
       "tags": ["ESP32", "Firebase", "Live chart"],
       "shortDesc": {
         "en": "Live-stream ECG signals to a website with Firebase integration.",
@@ -181,7 +217,10 @@
     {
       "id": "printer",
       "year": "2024",
-      "title": { "en": "Custom 3D Printer (Prusa Bear inspired)", "fa": "پرینتر سه‌بعدی سفارشی (الهام از Prusa Bear)" },
+      "title": {
+        "en": "Custom 3D Printer (Prusa Bear inspired)",
+        "fa": "پرینتر سه‌بعدی سفارشی (الهام از Prusa Bear)"
+      },
       "tags": ["Mechanics", "Marlin", "Fabrication"],
       "shortDesc": {
         "en": "Custom 3D printer inspired by Prusa Bear, built from scratch.",
@@ -206,7 +245,10 @@
         ]
       },
       "stack": ["Marlin", "Fusion 360", "Stepper drivers", "3D printing"],
-      "images": ["images/projects/printer-1.jpg", "images/projects/printer-2.jpg"]
+      "images": [
+        "images/projects/printer-1.jpg",
+        "images/projects/printer-2.jpg"
+      ]
     },
     {
       "id": "mqtt-plug",
@@ -233,13 +275,21 @@
           "بدنه‌ی پلکسی برش لیزری با جداسازی بخش برق شهر"
         ]
       },
-      "stack": ["ESP8266", "MQTT (WebSocket)", "HTML / CSS / JS", "Laser cutting"],
+      "stack": [
+        "ESP8266",
+        "MQTT (WebSocket)",
+        "HTML / CSS / JS",
+        "Laser cutting"
+      ],
       "images": ["images/projects/mqtt-plug-1.jpg"]
     },
     {
       "id": "firebase-relay",
       "year": "2022",
-      "title": { "en": "Smart Relay with Firebase", "fa": "رله هوشمند با Firebase" },
+      "title": {
+        "en": "Smart Relay with Firebase",
+        "fa": "رله هوشمند با Firebase"
+      },
       "tags": ["ESP8266", "Firebase", "Web panel"],
       "shortDesc": {
         "en": "Smart relay controlled via Firebase with a custom web panel for remote switching.",
@@ -261,13 +311,21 @@
           "میزبانی روی Firebase Hosting، بدون سرور جداگانه"
         ]
       },
-      "stack": ["ESP8266", "Firebase RTDB", "Firebase Hosting", "HTML / CSS / JS"],
+      "stack": [
+        "ESP8266",
+        "Firebase RTDB",
+        "Firebase Hosting",
+        "HTML / CSS / JS"
+      ],
       "images": ["images/projects/firebase-relay-1.jpg"]
     },
     {
       "id": "avr",
       "year": "2021",
-      "title": { "en": "AVR Microcontroller Projects", "fa": "پروژه‌های میکروکنترلر AVR" },
+      "title": {
+        "en": "AVR Microcontroller Projects",
+        "fa": "پروژه‌های میکروکنترلر AVR"
+      },
       "tags": ["AVR", "CodeVision", "Proteus"],
       "shortDesc": {
         "en": "Various AVR-based projects including locks, thermostats, and displays.",
@@ -302,8 +360,20 @@
       "items": [
         { "name": "Arduino", "level": "solid", "usage": 1 },
         { "name": "ESP32 / ESP8266", "level": "solid", "usage": 1 },
-        { "name": "IoT (MQTT · HTTP · Firebase)", "level": "solid", "usage": 1 },
-        { "name": "AVR (CodeVision)", "level": "working", "usage": 1, "note": { "en": "a bit rusty — haven't touched it in a while", "fa": "یه مدت سراغش نرفتم، کمی از دستم در رفته" } }
+        {
+          "name": "IoT (MQTT · HTTP · Firebase)",
+          "level": "solid",
+          "usage": 1
+        },
+        {
+          "name": "AVR (CodeVision)",
+          "level": "working",
+          "usage": 1,
+          "note": {
+            "en": "a bit rusty — haven't touched it in a while",
+            "fa": "یه مدت سراغش نرفتم، کمی از دستم در رفته"
+          }
+        }
       ]
     },
     {
@@ -312,7 +382,15 @@
         { "name": "HTML / CSS", "level": "solid", "usage": 1 },
         { "name": "JavaScript", "level": "working", "usage": 2 },
         { "name": "PHP", "level": "basic", "usage": 2 },
-        { "name": "MySQL · Firebase", "level": "basic", "usage": 1, "note": { "en": "used in projects, but only the parts I needed", "fa": "توی پروژه‌ها استفاده کردم، ولی فقط همون قدری که لازم بود" } }
+        {
+          "name": "MySQL · Firebase",
+          "level": "basic",
+          "usage": 1,
+          "note": {
+            "en": "used in projects, but only the parts I needed",
+            "fa": "توی پروژه‌ها استفاده کردم، ولی فقط همون قدری که لازم بود"
+          }
+        }
       ]
     },
     {
@@ -372,9 +450,17 @@
   "contact": {
     "email": "hello@example.com",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/", "handle": "github.com/yourname" },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/",
+        "handle": "github.com/yourname"
+      },
       { "label": "Telegram", "url": "https://t.me/", "handle": "@yourname" },
-      { "label": "LinkedIn", "url": "https://linkedin.com/", "handle": "in/yourname" }
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/",
+        "handle": "in/yourname"
+      }
     ]
   }
 }
