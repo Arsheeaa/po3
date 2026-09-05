@@ -216,29 +216,27 @@
     },
     {
       "id": "printer",
-      "year": "2024",
+      "year": "2025",
       "title": {
         "en": "Custom 3D Printer (Prusa Bear inspired)",
-        "fa": "پرینتر سه‌بعدی سفارشی (الهام از Prusa Bear)"
+        "fa": "پرینتر سه‌بعدی (الهام از Prusa Bear)"
       },
-      "tags": ["Mechanics", "Marlin", "Fabrication"],
+      "tags": ["Mechanics", "Marlin", "ELECTRONIC"],
       "shortDesc": {
         "en": "Custom 3D printer inspired by Prusa Bear, built from scratch.",
         "fa": "پرینتر سه‌بعدی که از صفر و با الهام از Prusa Bear ساختم."
       },
       "longDesc": {
-        "en": "A custom-built 3D printer inspired by the Prusa Bear design. The project involved tackling mechanical, electronic, and firmware challenges to achieve precise and reliable printing. It was a demanding yet rewarding process, resulting in a fully functional printer tailored to my needs.",
-        "fa": "یک پرینتر سه‌بعدی که با الهام از طرح Prusa Bear ساختم. برای رسیدن به چاپ دقیق و پایدار باید هم‌زمان با مشکلات مکانیکی، الکترونیکی و فرم‌ویر سر و کله می‌زدم. سخت بود، ولی نتیجه‌ش پرینتریه که الان قطعات بقیه‌ی پروژه‌هام رو باهاش چاپ می‌کنم."
+        "en": "A 3D printer I built inspired by the Prusa Bear design. Achieving accurate and consistent prints required me to deal with mechanical, electronic, and firmware-related challenges at the same time. The journey was not necessarily difficult, but it came with many challenges before I could achieve a level of precision comparable to commercially available machines.",
+        "fa": "یک پرینتر سه‌بعدی که با الهام از طرح Prusa Bear ساختم. برای رسیدن به چاپ دقیق و پایدار باید هم‌زمان با مشکلات مکانیکی، الکترونیکی و فرم‌ویر سر و کله می‌زدم. مسیر خیلی سختی نبود اما چالش های زیادی داشت تا بشه به دقت دستگاه های خارجی دست پیدا کرد"
       },
       "highlights": {
         "en": [
-          "Aluminium extrusion frame, belts and linear motion assembled and squared by hand",
           "Wiring, stepper drivers and control board set up from scratch",
           "Firmware configured and calibrated: steps/mm, PID, bed levelling",
           "Now used to print enclosures for my other projects"
         ],
         "fa": [
-          "شاسی پروفیل آلومینیومی، تسمه‌ها و حرکت خطی، دستی مونتاژ و تراز شد",
           "سیم‌کشی، درایور استپر و برد کنترل از صفر راه‌اندازی شد",
           "پیکربندی و کالیبراسیون فرم‌ویر: steps/mm، PID، تراز بستر",
           "الان بدنه‌ی بقیه‌ی پروژه‌هام رو با همین چاپ می‌کنم"
@@ -247,7 +245,9 @@
       "stack": ["Marlin", "Fusion 360", "Stepper drivers", "3D printing"],
       "images": [
         "images/projects/printer-1.jpg",
-        "images/projects/printer-2.jpg"
+        "images/projects/3d1 (1).jpg",
+        "images/projects/3d1 (2).jpg",
+        "images/projects/3d1 (3).jpg"
       ]
     },
     {
@@ -279,9 +279,13 @@
         "ESP8266",
         "MQTT (WebSocket)",
         "HTML / CSS / JS",
+        "PHP",
         "Laser cutting"
       ],
-      "images": ["images/projects/mqtt-plug-1.jpg"]
+      "images": ["images/projects/mqtt-plug-1.jpg",
+       "images/projects/mqttp (1).jpg",
+       "images/projects/mqttp (2).jpg"
+    ]
     },
     {
       "id": "firebase-relay",
