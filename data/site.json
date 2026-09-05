@@ -6,8 +6,8 @@
     "name": { "en": "Arshia Taghipour", "fa": "ارشیا تقی‌پور" },
     "hello": { "en": " // hell, i'm", "fa": " // سلام من" },
     "role": {
-      "en": "Electronics · Problem Solving · Building",
-      "fa": "الکترونیک · حل مسئله · ساختن"
+      "en": "Electronics · Programming · Problem Solving · Building",
+      "fa": "الکترونیک · برنامه نویسی · حل مسئله · ساختن"
     },
     "tagline": {
       "en": "I build things that actually work — from a bare microcontroller to the web panel that controls it.",
@@ -48,7 +48,7 @@
     "projectsTitle": { "en": "Selected projects", "fa": "پروژه‌های منتخب" },
     "projectsSub": {
       "en": "Each one started as a real problem. Tap a card to see the details, the photos and what was hard about it.",
-      "fa": "هر کدوم از یه نیاز واقعی شروع شد. روی هر کارت بزن تا جزئیات، عکس‌ها و چالش‌هاش رو ببینی."
+      "fa": 
     },
     "featured": { "en": "Featured project", "fa": "پروژه‌ی شاخص" },
     "viewProject": { "en": "View project", "fa": "دیدن پروژه" },
@@ -175,7 +175,7 @@
           "یک داشبورد برای همه‌ی دستگاه‌ها، بدون اپ جداگانه"
         ]
       },
-      "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS"],
+      "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS" , "ELECTRONIC"],
       "images": [
         "images/projects/smart-home-1.jpg",
         "images/projects/smart-home-2.jpg"
@@ -185,8 +185,8 @@
       "id": "ecg",
       "year": "2023",
       "title": {
-        "en": "Online ECG Monitoring",
-        "fa": "پایش آنلاین نوار قلب (ECG)"
+        "en": "Real Time Online ECG Monitoring",
+        "fa": "پایش آنلاین نوار قلب (ECG) لحظه ای"
       },
       "tags": ["ESP32", "Firebase", "Live chart"],
       "shortDesc": {
@@ -211,7 +211,7 @@
           "طراحی حول یک نیاز واقعی: بررسی از راه دور قبل از رسیدن به بیمارستان"
         ]
       },
-      "stack": ["ESP32", "AD8232", "Firebase", "HTML / CSS / JS"],
+      "stack": ["ESP32", "AD8232", "Firebase", "HTML / CSS / JS"  , "VUE.JS" , "CHART.JS" , "Fusion 360" , "3D printing"],
       "images": ["images/projects/ecg-1.jpg"]
     },
     {
