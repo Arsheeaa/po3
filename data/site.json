@@ -95,6 +95,7 @@
       "fa": "اگه پروژه‌ای دارید، جای کارآموزی خالیه، یا فقط می‌خواید درباره‌ی سخت‌افزار حرف بزنیم، خوشحال می‌شم پیام بدید."
     },
     "sendEmail": { "en": "Send an email", "fa": "ایمیل بزن" },
+    "call": { "en": "call & text", "fa": "تماس و پیام" },
     "footer": {
       "en": "Designed & built by me. Content lives in one JSON file.",
       "fa": "طراحی و ساخت خودم. محتوای سایت داخل یک فایل JSON ساده‌ست."
@@ -457,7 +458,7 @@
 
   "contact": {
     "email": "arshea.tt@gmail.com",
-    "call": "arshea.tt@gmail.com",
+    "call": "+989015801725",
     "links": [
       {
         "label": "call",

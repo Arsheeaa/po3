@@ -32,7 +32,7 @@
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
     localStorage.setItem("lang", lang);
-    document.title = lang === "fa" ? "عرشیا تقی‌پور — پورتفولیو" : "Arshia Taghipour — Portfolio";
+    document.title = lang === "fa" ? "ارشیا تقی‌پور — پورتفولیو" : "Arshia Taghipour — Portfolio";
   }
 
   function arrowIcon(cls="arrow") {
@@ -235,6 +235,7 @@
       <div class="contact-card reveal"><span class="tape tl"></span>
         <div><h2 class="contact-title">${esc(t(ui.contactTitle))}</h2><p class="contact-sub">${esc(t(ui.contactSub))}</p></div>
         <div class="contact-actions"><a class="btn-primary" href="mailto:${esc(c.email)}"><span>${esc(t(ui.sendEmail))}</span>${arrowIcon()}</a>
+        <div class="contact-actions"><a class="btn-primary" href="callto:${esc(c.call)}"><span>${esc(t(ui.call))}</span>${arrowIcon()}</a>
           <div class="contact-links">${c.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noreferrer"><strong>${esc(l.label)}</strong><span class="mono">${esc(l.handle)}</span></a>`).join("")}</div>
         </div>
       </div>
