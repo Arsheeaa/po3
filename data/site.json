@@ -146,7 +146,7 @@
         "HTML / CSS / JS",
         "ELECRONIC"
       ],
-      "images": ["images/projects/mqtt-http-relay-1.jpg"]
+      "images": ["images/projects/mqtt-http-relay-1.jpg","images/projects/web1 (1).jpg","images/projects/web1 ().jpg"]
     },
     {
       "id": "smart-home",
@@ -159,7 +159,7 @@
       },
       "longDesc": {
         "en": "A smart home system consisting of multiple devices based on ESP8266, ESP32, and ESP-01, including humidity sensors, door open/close sensors, relay controllers, and a smart irrigation system. Data such as soil moisture, air temperature, and humidity were displayed through real-time charts, while door open/close statuses were recorded in a table. All devices could be monitored and controlled through a central control panel. The system was built using HTTPS and REST APIs and deployed on cPanel hosting. The control panel was developed using PHP, HTML, CSS, and JavaScript.",
-        "fa": "یک سیستم خانه هوشمند که شامل چندین دستگاه مبتنی بر ESP8266 و ESP32 و همچنین ESP01 بود، از جمله سنسور رطوبت، سنسور باز و بسته شدن در، کنترل رله و سیستم آبیاری هوشمند. اطلاعات مانند رطوبت خاک دمای هوا و رطوبت به صورت نمودار لحظه‌ای نمایش داده می‌شد و وضعیت باز و بسته شدن درها در جدول ثبت می‌شد. تمامی دستگاه‌ها از طریق یک پنل مرکزی قابل کنترل بودند این سیستم بر پایه HTTPS و REST API روی هاست های CPANEL راه اندازی شد پنل با استفاده از PHP, HTML, CSS , JS راه اندازی شد "
+        "fa": "یک سیستم خانه هوشمند که شامل چندین دستگاه مبتنی بر ESP8266 و ESP32 و همچنین ESP01 بود، از جمله سنسور رطوبت، سنسور باز و بسته شدن در، کنترل رله و سیستم آبیاری هوشمند. اطلاعات مانند رطوبت خاک دمای هوا و رطوبت به صورت نمودار لحظه‌ای نمایش داده می‌شد و وضعیت باز و بسته شدن درها در جدول ثبت می‌شد. تمامی دستگاه‌ها از طریق یک پنل مرکزی قابل کنترل بودند این سیستم بر پایه Firebase realyime database راه اندازی شد پنل با استفاده از HTML, CSS , JS راه اندازی شد "
       },
       "highlights": {
         "en": [
@@ -176,10 +176,7 @@
         ]
       },
       "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS" , "ELECTRONIC"],
-      "images": [
-        "images/projects/smart-home-1.jpg",
-        "images/projects/smart-home-2.jpg"
-      ]
+      "images": ["images/projects/web2 (1).jpg","images/projects/web2 (2).jpg"]
     },
     {
       "id": "ecg",
@@ -354,7 +351,7 @@
         ]
       },
       "stack": ["ATmega", "CodeVision AVR", "Proteus"],
-      "images": ["images/projects/avr-1.jpg"]
+      "images": ["images/projects/avr-1.jpg","images/projects/avr (1).jpg","images/projects/avr (2).jpg","images/projects/avr (3).jpg","images/projects/avr (4).jpg","images/projects/avr (5).jpg"]
     }
   ],
 
