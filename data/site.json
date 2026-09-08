@@ -456,12 +456,13 @@
   ],
 
   "contact": {
-    "email": "hello@example.com",
+    "email": "arshea.tt@gmail.com",
+    "call": "arshea.tt@gmail.com",
     "links": [
       {
-        "label": "GitHub",
+        "label": "call",
         "url": "https://github.com/",
-        "handle": "github.com/yourname"
+        "handle": "+989015801725"
       },
       { "label": "Telegram", "url": "https://t.me/", "handle": "@yourname" },
       {
