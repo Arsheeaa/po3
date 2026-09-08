@@ -450,8 +450,8 @@
       "tag": "05",
       "title": { "en": "Now", "fa": "الان" },
       "text": {
-        "en": "I know what I'm good at and what I'm still learning. What I want next is to work next to people who've done this longer than me, on things that ship.",
-        "fa": "می‌دونم توی چی خوبم و چی رو هنوز دارم یاد می‌گیرم. چیزی که الان دنبالشم، کار کردن کنار آدم‌هاییه که این مسیر رو بیشتر از من رفتن، روی چیزهایی که واقعاً به دست آدم‌ها می‌رسه."
+        "en": "I'm still on my journey. What I'm looking for now is the opportunity to work alongside people who have gone further down this path and know more than I do.",
+        "fa": "تو مسیرم هنوز. چیزی که الان دنبالشم، کار کردن کنار آدم‌هاییه که این مسیر رو بیشتر بیشتر از من بلدن."
       }
     }
   ],
@@ -461,16 +461,11 @@
     "call": "+989015801725",
     "links": [
       {
-        "label": "call",
-        "url": "https://github.com/",
+        "label": "Call",
         "handle": "+989015801725"
       },
-      { "label": "Telegram", "url": "https://t.me/", "handle": "@yourname" },
-      {
-        "label": "LinkedIn",
-        "url": "https://linkedin.com/",
-        "handle": "in/yourname"
-      }
+      { "label": "Email", "handle": "arshea.tt@gmail.com" }
+
     ]
   }
 }
