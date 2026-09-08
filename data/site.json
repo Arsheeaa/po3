@@ -146,7 +146,7 @@
         "HTML / CSS / JS",
         "ELECRONIC"
       ],
-      "images": ["images/projects/mqtt-http-relay-1.jpg","images/projects/web1 (1).jpg","images/projects/web1 ().jpg"]
+      "images": ["images/projects/relay (1).jpg","images/projects/relay (2).jpg","images/projects/web1 (1).jpg","images/projects/web1 ().jpg"]
     },
     {
       "id": "smart-home",
@@ -241,7 +241,6 @@
       },
       "stack": ["Marlin", "Fusion 360", "Stepper drivers", "3D printing"],
       "images": [
-        "images/projects/printer-1.jpg",
         "images/projects/3d1 (1).jpg",
         "images/projects/3d1 (2).jpg",
         "images/projects/3d1 (3).jpg"
@@ -283,9 +282,13 @@
         "PHP",
         "Laser cutting"
       ],
-      "images": ["images/projects/mqtt-plug-1.jpg",
+      "images": [
        "images/projects/mqttp (1).jpg",
-       "images/projects/mqttp (2).jpg"
+       "images/projects/mqttp (2).jpg",
+       "images/projects/mpw (1).jpg",
+       "images/projects/mpw (2).jpg",
+       "images/projects/mpw (3).jpg"
+
     ]
     },
     {
@@ -322,7 +325,7 @@
         "Firebase Hosting",
         "HTML / CSS / JS"
       ],
-      "images": ["images/projects/firebase-relay-1.jpg"]
+      "images": ["images/projects/web3 (1).jpg","images/projects/web3 (1).jpg"]
     },
     {
       "id": "avr",
