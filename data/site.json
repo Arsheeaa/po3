@@ -358,7 +358,7 @@
         ]
       },
       "stack": ["ATmega", "CodeVision AVR", "Proteus"],
-      "images": ["images/projects/avr-1.jpg","images/projects/avr (1).jpg","images/projects/avr (2).jpg","images/projects/avr (3).jpg","images/projects/avr (4).jpg","images/projects/avr (5).jpg"]
+      "images": ["images/projects/avr (1).png","images/projects/avr (2).png","images/projects/avr (3).png","images/projects/avr (4).png","images/projects/avr (5).png"]
     }
   ],
 
