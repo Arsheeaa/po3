@@ -262,13 +262,17 @@
       },
       "highlights": {
         "en": [
-          "Browser connects straight to the broker over MQTT-WebSocket",
-          "Command / acknowledge topic pair so the UI reflects the real state",
+          "Direct website connection to the MQTT broker via WebSocket with minimal latency",
+          "Real-time command feedback through HTTPS with data stored in the database",
+          "Complete and efficient website design, including the backend and database",
+          "Implementation of a Wi-Fi Manager web server for Wi-Fi configuration",
           "Enclosure designed for laser-cut plexiglass, mains wiring kept isolated"
         ],
         "fa": [
-          "اتصال مستقیم مرورگر به بروکر از طریق MQTT روی WebSocket",
-          "جفت Topic فرمان/تأیید تا وضعیت واقعی دستگاه توی رابط دیده بشه",
+          "اتصال مستقیم وبسایت به بروکر mqtt از طریق websocket با کمترین تاخیر",
+          "ایجاد پاسخ در لحظه فرمان ها از طریق https و ذخیره در دیتابیس",
+          "طراحی وبسایت به صورت کامل و کار آمد به همراه بک اند و دیتابیس",
+          "اجرای webserver wifi manager برای تنظیم وایفای",
           "بدنه‌ی پلکسی برش لیزری با جداسازی بخش برق شهر"
         ]
       },
