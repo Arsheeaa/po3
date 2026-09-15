@@ -182,7 +182,7 @@
      {
       "id": "pcb-design",
       "year": "2025",
-      "title": { "en": "design pcb for ncvd", "fa": "طراحی و ساخت pcb فازمتر الفایی" },
+      "title": { "en": "design pcb ", "fa": "طراحی و ساخت pcb" },
       "tags": ["KICAD", "PCB", "ELECTRONIC"],
       "shortDesc": {
         "en": "PCB Design and Development Using KiCad",
