@@ -204,7 +204,7 @@
         ]
       },
       "stack": ["KICAD", "ELECTRONIC"],
-      "images": ["images/projects/pcb (2).jpg","images/projects/pcb (1).jpg"]
+      "images": ["images/projects/pcb (2).png","images/projects/pcb (1).png"]
     },
     {
       "id": "ecg",
