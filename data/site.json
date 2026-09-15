@@ -434,7 +434,7 @@
       "items": [
         { "name": "3D Printing", "level": "solid", "usage": 1 },
         { "name": "Fusion 360", "level": "working", "usage": 2 },
-        { "name": "KiCad", "level": "basic", "usage": 2 },
+        { "name": "KiCad", "level": "working", "usage": 2 },
         { "name": "Electronics repair", "level": "working", "usage": 2 }
       ]
     }
