@@ -179,6 +179,33 @@
       "stack": ["ESP32 / ESP8266", "Firebase", "Chart.js", "HTML / CSS / JS" , "ELECTRONIC"],
       "images": ["images/projects/web2 (1).jpg","images/projects/web2 (2).jpg"]
     },
+     {
+      "id": "pcb-design",
+      "year": "2025",
+      "title": { "en": "design pcb for ncvd", "fa": "طراحی و ساخت pcb فازمتر الفایی" },
+      "tags": ["KICAD", "PCB", "ELECTRONIC"],
+      "shortDesc": {
+        "en": "PCB Design and Development Using KiCad",
+        "fa": "طراحی و ساخت برد ( pcb ) با kicad"
+      },
+      "longDesc": {
+        "en": "PCB Design and Development Using KiCad",
+        "fa": "طراحی و ساخت pcb برای فازمتر الفایی با استفاده از kicad "
+      },
+      "highlights": {
+        "en": [
+          "Battery-free board design",
+"Designing a suitable internal antenna"
+
+        ],
+        "fa": [
+          "طراحی برد بدون نیاز به جاباطری ",
+          "طراحی انتن internal مناسب"
+        ]
+      },
+      "stack": ["KICAD", "ELECTRONIC"],
+      "images": ["images/projects/pcb (2).jpg","images/projects/pcb (1).jpg"]
+    },
     {
       "id": "ecg",
       "year": "2023",
