@@ -138,7 +138,7 @@
             <p class="hero-tagline">${esc(t(p.tagline))}</p>
             <div class="hero-meta"><span class="status-pill mono"><i></i> ${esc(t(p.status))}</span></div>
           </div>
-          <div style="@media (max-width: 768px) {.desktop-only {display: none !important;}}" class="stage" aria-hidden>
+          <div class="stage" aria-hidden>
             <div class="stage-steps mono">${h.steps.map(s=>`<span>${esc(t(s))}</span>`).join("")}</div>
             <div class="board">
               <svg class="board-traces" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -285,10 +285,11 @@
   }
 
   function initHeroAnimation() {
+    if (!matchMedia("(min-width: 900px)").matches) return;
     if (!window.gsap || !window.ScrollTrigger) return;
     gsap.registerPlugin(ScrollTrigger);
     const el=$(".hero"); if(!el) return;
-    const desktop=matchMedia("(min-width: 900px)").matches, reduce=matchMedia("(prefers-reduced-motion: reduce)").matches, k=desktop?1:0.6;
+    const desktop=true, reduce=matchMedia("(prefers-reduced-motion: reduce)").matches, k=1;
     const pin=$(".hero-pin",el), text=$(".hero-text",el), stage=$(".stage",el);
     const slots=$$(".slot",el), traces=$$(".board-traces path",el), vias=$$(".board-traces circle",el);
     const steps=$$(".stage-steps span",el), ledGlow=$(".led-glow",el), ledDot=$(".led-dot",el), wifiArcs=$$(".slot-wifi path",el);
@@ -305,10 +306,6 @@
     const tl=gsap.timeline({defaults:{ease:"power2.inOut"},scrollTrigger:{trigger:pin,start:"top top",end:()=>"+="+(desktop?230:260)+"%",pin,scrub:.7,anticipatePin:1,invalidateOnRefresh:true}});
     const setStep=(i,at)=>{tl.to(steps[i],{opacity:1,color:ACCENT,duration:.15},at);if(i>0)tl.to(steps[i-1],{opacity:.45,color:MUTED,duration:.15},at);};
     tl.to(hint,{autoAlpha:0,duration:.15},0);
-    if(!desktop){
-      tl.to(text,{autoAlpha:0,y:-30,duration:.5},0);
-      tl.to(stage,{y:()=>{const avail=pin.clientHeight-64,centre=Math.max(0,(avail-stage.offsetHeight)/2);return -(text.offsetHeight+28+16)+centre-10;},duration:.6},.05);
-    }
     tl.to(slots,{x:0,y:0,rotation:0,scale:1,opacity:1,duration:1,stagger:.08},.1); setStep(1,.5);
     tl.to(traces,{strokeDashoffset:0,duration:.7,stagger:.08,ease:"none"},.9); tl.to(vias,{opacity:1,duration:.2,stagger:.04},1.2);
     setStep(2,1.7); tl.to(ledDot,{fill:ACCENT,duration:.15},1.7); tl.to(ledGlow,{opacity:.35,duration:.25},1.7); tl.to(wifiArcs,{opacity:1,duration:.2,stagger:.1},1.8);

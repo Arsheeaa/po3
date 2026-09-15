@@ -244,7 +244,12 @@ html[dir="rtl"] .sticky-note { transform: rotate(-4deg); }
   position: relative; width: min(100%, 520px, calc(100svh - 170px)); margin-inline: auto;
   aspect-ratio: 1 / 1;
 }
-@media (max-width: 899px) { .stage { width: min(80vw, 320px); margin-top: 10px; } }
+@media (max-width: 899px) {
+  .stage { display: none; }
+  .scroll-hint { display: none; }
+  .hero-pin { height: auto; min-height: calc(100svh - var(--nav-h)); align-content: center; }
+  .hero-inner { min-height: calc(100svh - var(--nav-h)); padding-block: 28px 42px; }
+}
 
 .board {
   position: absolute; inset: 9% 7%;
