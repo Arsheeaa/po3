@@ -138,7 +138,7 @@
             <p class="hero-tagline">${esc(t(p.tagline))}</p>
             <div class="hero-meta"><span class="status-pill mono"><i></i> ${esc(t(p.status))}</span></div>
           </div>
-          <div class="stage" aria-hidden>
+          <div style="@media (max-width: 768px) {.desktop-only {display: none !important;}}" class="stage" aria-hidden>
             <div class="stage-steps mono">${h.steps.map(s=>`<span>${esc(t(s))}</span>`).join("")}</div>
             <div class="board">
               <svg class="board-traces" viewBox="0 0 100 100" preserveAspectRatio="none">

@@ -150,6 +150,39 @@
       "images": ["images/projects/relay (1).jpg","images/projects/relay (2).jpg","images/projects/web1 (1).jpg","images/projects/web1 ().jpg"]
     },
     {
+      "id": "avr",
+      "year": "2021",
+      "title": {
+        "en": "AVR Microcontroller Projects",
+        "fa": "پروژه‌های میکروکنترلر AVR"
+      },
+      "tags": ["AVR", "CodeVision", "Proteus"],
+      "shortDesc": {
+        "en": "Various AVR-based projects including locks, thermostats, and displays.",
+        "fa": "چند پروژه با AVR: قفل رمزی، ترموستات، تابلو روان و بیشتر."
+      },
+      "longDesc": {
+        "en": "A collection of projects developed with AVR microcontrollers using CodeVision and simulated in Proteus. Projects included a digital password lock, adjustable thermostat, timer-based relay, dice generator, and LED matrix display with shift registers. These projects provided strong foundations in low-level programming and hardware integration.",
+        "fa": "مجموعه‌ای از پروژه‌ها با میکروکنترلر AVR که در CodeVision نوشته و در Proteus شبیه‌سازی شدن: قفل رمزی دیجیتال، ترموستات قابل‌تنظیم، رله‌ی تایمردار، تاس الکترونیکی و تابلو روان با شیفت‌رجیستر. همین‌ها بودن که پایه‌ی برنامه‌نویسی سطح پایین و کار مستقیم با سخت‌افزار رو برام ساختن."
+      },
+      "highlights": {
+        "en": [
+          "Direct register-level programming, no Arduino abstraction",
+          "Keypad + LCD password lock with EEPROM-stored code",
+          "LED matrix driven through 74HC595 shift registers",
+          "Everything simulated in Proteus before touching hardware"
+        ],
+        "fa": [
+          "برنامه‌نویسی مستقیم روی رجیسترها، بدون لایه‌ی آردوینو",
+          "قفل رمزی با کی‌پد و LCD و ذخیره‌ی رمز در EEPROM",
+          "تابلو روان با شیفت‌رجیستر 74HC595",
+          "شبیه‌سازی همه‌چیز در Proteus قبل از بستن مدار واقعی"
+        ]
+      },
+      "stack": ["ATmega", "CodeVision AVR", "Proteus"],
+      "images": ["images/projects/avr (1).png","images/projects/avr (2).png","images/projects/avr (3).png","images/projects/avr (4).png","images/projects/avr (5).png"]
+    },
+    {
       "id": "smart-home",
       "year": "2023",
       "title": { "en": "Smart Home System", "fa": "سیستم خانه هوشمند" },
@@ -354,39 +387,6 @@
         "HTML / CSS / JS"
       ],
       "images": ["images/projects/web3 (1).jpg","images/projects/web3 (1).jpg"]
-    },
-    {
-      "id": "avr",
-      "year": "2021",
-      "title": {
-        "en": "AVR Microcontroller Projects",
-        "fa": "پروژه‌های میکروکنترلر AVR"
-      },
-      "tags": ["AVR", "CodeVision", "Proteus"],
-      "shortDesc": {
-        "en": "Various AVR-based projects including locks, thermostats, and displays.",
-        "fa": "چند پروژه با AVR: قفل رمزی، ترموستات، تابلو روان و بیشتر."
-      },
-      "longDesc": {
-        "en": "A collection of projects developed with AVR microcontrollers using CodeVision and simulated in Proteus. Projects included a digital password lock, adjustable thermostat, timer-based relay, dice generator, and LED matrix display with shift registers. These projects provided strong foundations in low-level programming and hardware integration.",
-        "fa": "مجموعه‌ای از پروژه‌ها با میکروکنترلر AVR که در CodeVision نوشته و در Proteus شبیه‌سازی شدن: قفل رمزی دیجیتال، ترموستات قابل‌تنظیم، رله‌ی تایمردار، تاس الکترونیکی و تابلو روان با شیفت‌رجیستر. همین‌ها بودن که پایه‌ی برنامه‌نویسی سطح پایین و کار مستقیم با سخت‌افزار رو برام ساختن."
-      },
-      "highlights": {
-        "en": [
-          "Direct register-level programming, no Arduino abstraction",
-          "Keypad + LCD password lock with EEPROM-stored code",
-          "LED matrix driven through 74HC595 shift registers",
-          "Everything simulated in Proteus before touching hardware"
-        ],
-        "fa": [
-          "برنامه‌نویسی مستقیم روی رجیسترها، بدون لایه‌ی آردوینو",
-          "قفل رمزی با کی‌پد و LCD و ذخیره‌ی رمز در EEPROM",
-          "تابلو روان با شیفت‌رجیستر 74HC595",
-          "شبیه‌سازی همه‌چیز در Proteus قبل از بستن مدار واقعی"
-        ]
-      },
-      "stack": ["ATmega", "CodeVision AVR", "Proteus"],
-      "images": ["images/projects/avr (1).png","images/projects/avr (2).png","images/projects/avr (3).png","images/projects/avr (4).png","images/projects/avr (5).png"]
     }
   ],
 
