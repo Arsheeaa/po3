@@ -370,7 +370,7 @@
     document.body.appendChild(root);
   }
 
-  document.addEventListener("keydown", e=>{
+  document.addEventListener("keydown", e=>{ 
     if(!activeProject)return;
     const imgs=activeProject.images||[];
     if(e.key==="Escape")closeModal();
